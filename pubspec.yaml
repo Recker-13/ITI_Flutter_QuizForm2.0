@@ -1,0 +1,27 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Other dependencies
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0  # Ensure this line is present and adjust the version number as necessary
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/quiz.png  # Ensure your image path is correct
